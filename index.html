@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="p-6 flex justify-between items-center max-w-5xl mx-auto">
+        <h1 class="text-2xl font-bold text-blue-400 underline">Gnaanaa.</h1>
+        <div class="space-x-6">
+            <a href="#projects" class="hover:text-blue-400">Projects</a>
+            <a href="#contact" class="hover:text-blue-400">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="py-20 text-center">
+        <h2 class="text-5xl font-extrabold mb-4">Hello, I'm a Developer.</h2>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">I build high-performance web applications and solve complex problems with clean code.</p>
+    </header>
+
+    <!-- Projects Grid -->
+    <section id="projects" class="max-w-5xl mx-auto px-6 py-12">
+        <h3 class="text-3xl font-bold mb-8 border-b border-gray-700 pb-2">Recent Work</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <h4 class="text-xl font-bold text-blue-300">Hotel Booking Engine</h4>
+                <p class="mt-2 text-gray-400">.NET core API with WASM frontend and SQL server DB.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <h4 class="text-xl font-bold text-blue-300">Company websites</h4>
+                <p class="mt-2 text-gray-400">Several company sites in squarespace.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
+        <p class="mb-6">I am currently open to freelance opportunities.</p>
+        <a href="mailto:me@gnaanaa.com" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-full font-bold">Contact Me</a>
+    </section>
+
+    <footer class="text-center py-10 text-gray-500 text-sm">
+        © 2026 Developer Portfolio. Built with Cloudflare Pages.
+    </footer>
+</body>
+</html>
